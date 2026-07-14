@@ -1,44 +1,86 @@
-# Real-Time Chat Application
+#  Real-Time Chat Application💬
 
-A simple real-time chat application built using React, Node.js, Express, MongoDB, and Socket.io.
+<p align="center">
+  A simple real-time chat application built using <b>React, Node.js, Express, MongoDB, and Socket.io</b>.
+  <br>
+  Messages are delivered instantly and stored in MongoDB, allowing chat history to persist even after refreshing the application.
+</p>
 
-The application allows users to send and receive messages instantly while storing all messages in MongoDB so that chat history is available even after refreshing the page.
+<p align="center">
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+
+</p>
 
 ---
 
-## Features
+# ✨ Features
 
-- Real-time messaging using Socket.io
-- Send and receive messages instantly
-- Persistent chat history using MongoDB
-- Display message timestamps
-- REST API for sending and fetching messages
-- Clean and responsive user interface
-- Automatic scroll to the latest message
-- Basic error handling
+- 🚀 Real-time messaging using Socket.io
+- 💬 Send and receive messages instantly
+- 💾 Persistent chat history with MongoDB
+- 🕒 Displays message timestamps
+- 🔄 Automatic scrolling to the latest message
+- 🌐 REST APIs for fetching and sending messages
+- 📱 Responsive and clean user interface
+- ⚠️ Basic error handling
 
 ---
 
-## Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+## 🎨 Frontend
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react" width="48" />
+<img src="https://skillicons.dev/icons?i=css" width="48" />
+<img src="https://skillicons.dev/icons?i=js" width="48" />
+
+</p>
+
 - React
 - Axios
 - Socket.io Client
 - CSS
 
-### Backend
+</td>
+
+<td align="center" width="50%">
+
+## ⚙️ Backend
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" />
+<img src="https://skillicons.dev/icons?i=express" width="48" />
+<img src="https://skillicons.dev/icons?i=mongodb" width="48" />
+
+</p>
+
 - Node.js
 - Express.js
-- Socket.io
 - MongoDB Atlas
 - Mongoose
+- Socket.io
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Project Structure
+# 📁 Project Structure
 
-```
+```text
 Vedaz-Chat-App
 │
 ├── backend
@@ -63,15 +105,13 @@ Vedaz-Chat-App
 
 ---
 
-## Installation
+# 🚀 Installation
 
-### Clone the repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Aishwaryaschakote/chat-application_real-time.git
 ```
-
-Move into the project folder.
 
 ```bash
 cd chat-application_real-time
@@ -79,9 +119,9 @@ cd chat-application_real-time
 
 ---
 
-## Backend Setup
+# ⚙️ Backend Setup
 
-Navigate to the backend folder.
+Move into the backend folder.
 
 ```bash
 cd backend
@@ -109,7 +149,7 @@ node server.js
 
 ---
 
-## Frontend Setup
+# 🎨 Frontend Setup
 
 Navigate to the frontend folder.
 
@@ -129,7 +169,7 @@ Run the application.
 npm run dev
 ```
 
-The frontend will run at
+The application will be available at:
 
 ```
 http://localhost:5173
@@ -137,17 +177,17 @@ http://localhost:5173
 
 ---
 
-## API Endpoints
+# 📡 API Endpoints
 
-### Get all messages
+## Get All Messages
 
-```
+```http
 GET /api/messages
 ```
 
-### Send a message
+## Send a Message
 
-```
+```http
 POST /api/messages
 ```
 
@@ -155,33 +195,42 @@ Request Body
 
 ```json
 {
-    "message":"Hello"
+  "message": "Hello"
 }
 ```
 
 ---
 
-## Design Decisions
+# 💡 Design Decisions
 
-- React was used to build a simple and responsive user interface.
-- Express was used to build REST APIs.
-- Socket.io was used for real-time communication.
-- MongoDB stores chat history so messages are not lost after refreshing.
-- The project is divided into separate folders for models, controllers, routes, and services to keep the code organized.
+- React is used to build a responsive and interactive user interface.
+- Express.js provides RESTful APIs for message operations.
+- Socket.io enables real-time communication between connected clients.
+- MongoDB stores chat history, ensuring messages remain available after page refresh.
+- The project follows a modular folder structure with separate models, controllers, routes, and services for better maintainability.
 
 ---
 
-## Assumptions
+# 📌 Assumptions
 
-- All users participate in a single shared chat room.
-- Authentication is not implemented since it was an optional requirement.
+- The application uses a single shared chat room.
+- User authentication is not implemented, as it was optional.
 - Internet connectivity is required for real-time communication.
 
 ---
 
-## Author
+# 👩‍💻 Author
 
-**Aishwarya Chakote**
+**Aishwarya**
 
-GitHub:
-https://github.com/Aishwaryaschakote/chat-application_real-time
+<p align="left">
+<a href="https://github.com/Aishwaryaschakote">
+<img src="https://img.shields.io/badge/GitHub-Aishwarya%20Chakote-181717?style=for-the-badge&logo=github" />
+</a>
+</p>
+
+---
+
+<p align="center">
+⭐ If you found this project useful, consider giving it a star on GitHub.
+</p>
