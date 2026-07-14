@@ -41,9 +41,9 @@
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=react" width="48" />
-<img src="https://skillicons.dev/icons?i=css" width="48" />
-<img src="https://skillicons.dev/icons?i=js" width="48" />
+<img src="https://skillicons.dev/icons?i=react" width="46" />
+<img src="https://skillicons.dev/icons?i=css" width="46" />
+<img src="https://skillicons.dev/icons?i=js" width="46" />
 
 </p>
 
@@ -60,9 +60,9 @@
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs" width="48" />
-<img src="https://skillicons.dev/icons?i=express" width="48" />
-<img src="https://skillicons.dev/icons?i=mongodb" width="48" />
+<img src="https://skillicons.dev/icons?i=nodejs" width="46" />
+<img src="https://skillicons.dev/icons?i=express" width="46" />
+<img src="https://skillicons.dev/icons?i=mongodb" width="46" />
 
 </p>
 
