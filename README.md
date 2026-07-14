@@ -179,22 +179,9 @@ Request Body
 
 ---
 
-## Future Improvements
-
-Some features that can be added in future versions include:
-
-- User authentication
-- Typing indicator
-- Online/offline user status
-- Read receipts
-- Multiple chat rooms
-- Message deletion and editing
-
----
-
 ## Author
 
 **Aishwarya Chakote**
 
 GitHub:
-https://github.com/Aishwaryaschakote
+https://github.com/Aishwaryaschakote/chat-application_real-time
