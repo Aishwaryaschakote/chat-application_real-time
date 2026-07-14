@@ -1,4 +1,4 @@
-#  Real-Time Chat Application💬
+# 💬 Real-Time Chat Application
 
 <p align="center">
   A simple real-time chat application built using <b>React, Node.js, Express, MongoDB, and Socket.io</b>.
@@ -7,13 +7,11 @@
 </p>
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
 </p>
 
 ---
@@ -22,57 +20,55 @@
 
 - 🚀 Real-time messaging using Socket.io
 - 💬 Send and receive messages instantly
-- 💾 Persistent chat history with MongoDB
-- 🕒 Displays message timestamps
-- 🔄 Automatic scrolling to the latest message
-- 🌐 REST APIs for fetching and sending messages
-- 📱 Responsive and clean user interface
+- 💾 Persistent chat history using MongoDB
+- 🕒 Display message timestamps
+- 🌐 REST API for sending and fetching messages
+- 📱 Clean and responsive user interface
+- 🔄 Automatic scroll to the latest message
 - ⚠️ Basic error handling
 
 ---
 
 # 🛠️ Tech Stack
 
-<table align="center">
+<table align="center" width="90%">
 <tr>
-<td align="center" width="50%">
+
+<td align="center" valign="top" width="50%">
 
 ## 🎨 Frontend
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=react" width="46" />
-<img src="https://skillicons.dev/icons?i=css" width="46" />
-<img src="https://skillicons.dev/icons?i=js" width="46" />
-
+<img src="https://skillicons.dev/icons?i=react" width="50"/>
+<img src="https://skillicons.dev/icons?i=css" width="50"/>
+<img src="https://skillicons.dev/icons?i=javascript" width="50"/>
 </p>
 
-- React
-- Axios
-- Socket.io Client
-- CSS
+React  
+Axios  
+Socket.io Client  
+CSS
 
 </td>
 
-<td align="center" width="50%">
+<td align="center" valign="top" width="50%">
 
 ## ⚙️ Backend
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=nodejs" width="46" />
-<img src="https://skillicons.dev/icons?i=express" width="46" />
-<img src="https://skillicons.dev/icons?i=mongodb" width="46" />
-
+<img src="https://skillicons.dev/icons?i=nodejs" width="50"/>
+<img src="https://skillicons.dev/icons?i=express" width="50"/>
+<img src="https://skillicons.dev/icons?i=mongodb" width="50"/>
 </p>
 
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- Socket.io
+Node.js  
+Express.js  
+MongoDB Atlas  
+Mongoose  
+Socket.io
 
 </td>
+
 </tr>
 </table>
 
@@ -121,7 +117,7 @@ cd chat-application_real-time
 
 # ⚙️ Backend Setup
 
-Move into the backend folder.
+Navigate to the backend folder.
 
 ```bash
 cd backend
@@ -163,15 +159,15 @@ Install dependencies.
 npm install
 ```
 
-Run the application.
+Run the development server.
 
 ```bash
 npm run dev
 ```
 
-The application will be available at:
+The frontend will run at:
 
-```
+```text
 http://localhost:5173
 ```
 
@@ -191,7 +187,7 @@ GET /api/messages
 POST /api/messages
 ```
 
-Request Body
+### Request Body
 
 ```json
 {
@@ -203,11 +199,11 @@ Request Body
 
 # 💡 Design Decisions
 
-- React is used to build a responsive and interactive user interface.
-- Express.js provides RESTful APIs for message operations.
-- Socket.io enables real-time communication between connected clients.
-- MongoDB stores chat history, ensuring messages remain available after page refresh.
-- The project follows a modular folder structure with separate models, controllers, routes, and services for better maintainability.
+- React provides a responsive and interactive user interface.
+- Express.js exposes REST APIs for message operations.
+- Socket.io enables real-time communication between connected users.
+- MongoDB stores chat history, ensuring messages remain available after refreshing.
+- The application follows a modular architecture with separate folders for models, controllers, routes, and services to improve maintainability and scalability.
 
 ---
 
@@ -221,9 +217,9 @@ Request Body
 
 # 👩‍💻 Author
 
-**Aishwarya**
+**Aishwarya Chakote**
 
-<p align="left">
+<p>
 <a href="https://github.com/Aishwaryaschakote">
 <img src="https://img.shields.io/badge/GitHub-Aishwarya%20Chakote-181717?style=for-the-badge&logo=github" />
 </a>
