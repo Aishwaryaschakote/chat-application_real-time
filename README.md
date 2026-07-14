@@ -16,6 +16,19 @@
 
 ---
 
+# 🌐 Live Demo
+
+### 🚀 Frontend
+**https://aish-socket-chat-app.netlify.app**
+
+### ⚙️ Backend API
+**https://chat-application-real-time-backend-fmc8.onrender.com/api/messages**
+
+### 📂 GitHub Repository
+**https://github.com/Aishwaryaschakote/chat-application_real-time**
+
+---
+
 # ✨ Features
 
 - 🚀 Real-time messaging using Socket.io
