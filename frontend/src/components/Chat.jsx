@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import API from "../services/api";
 import socket from "../services/socket";
 import "./Chat.css";
@@ -6,6 +6,7 @@ import "./Chat.css";
 function Chat() {
     const [messages, setMessages] = useState([]);
     const [message, setMessage] = useState("");
+    const bottomRef = useRef(null);
 
     const fetchMessages = async () => {
         try {
@@ -30,8 +31,14 @@ function Chat() {
         };
     }, []);
 
+    useEffect(() => {
+        bottomRef.current?.scrollIntoView({
+            behavior: "smooth",
+        });
+    }, [messages]);
+
        const sendMessage = async () => {
-        if (message.trim() === "") return;
+        if (!message.trim()) return;
 
         try {
             await API.post("/messages", {
@@ -46,7 +53,7 @@ function Chat() {
 
     return (
         <div className="chat-container">
-            <h2>Vedaz Chat</h2>
+            <h2>Real-Time Chat Application</h2>
 
             <div className="chat-box">
                 {messages.map((msg) => (
@@ -54,16 +61,20 @@ function Chat() {
                         <p>{msg.message}</p>
 
                         <span>
-                            {new Date(msg.createdAt).toLocaleTimeString()}
+                            {new Date(msg.createdAt).toLocaleTimeString([], {
+                                hour: "2-digit",
+                                minute: "2-digit",
+                            })}
                         </span>
                     </div>
                 ))}
+                <div ref={bottomRef}></div>
             </div>
 
             <div className="input-area">
                 <input
                     type="text"
-                    placeholder="Type a message..."
+                    placeholder="Enter your message..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     onKeyDown={(e) => {
@@ -73,7 +84,10 @@ function Chat() {
                     }}
                 />
 
-                <button onClick={sendMessage}>
+                <button
+                    onClick={sendMessage}
+                    disabled={!message.trim()}
+                >
                     Send
                 </button>
             </div>
